@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.side{
+    background-color: rgb(226, 226, 226);
+   flex: 1;
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    border-bottom: 0.7px solid grey;
+    
+}
+
+.logo{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    color: black; 
+}
+
+.content{
+    height: 90%;
+    width: 100%;
+    
+}
+
+#map{
+    width: 1200px;
+    height: 680px;
+}
